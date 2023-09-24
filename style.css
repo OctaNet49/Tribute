@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:brown ;
+}
+.head{
+    background-color: brown;
+}
+.left{
+   font-size: xx-large ;
+    display: inline-block;
+    margin: 10px 0px;
+    color: white;
+}
+.mid{
+    
+    display: flex;
+    margin: -12px auto;
+    width: 33%;
+    
+}
+.mid .navbar li {
+    padding: 12px 12px;
+    list-style: none;
+}
+.mid .navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.right{
+  
+    position: absolute;
+    right: 34px;
+    top: 10px;
+    display: inline-block;
+    padding: 3px 3px;
+
+}
+.btn{
+   
+    color: aliceblue;
+    color: aqua;
+background-color: aqua;
+}
+.about{
+    /* margin: 120px 0px; */
+    min-height: 90vh;
+    background-color:rgb(197, 85, 85) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.h2{
+   color:beige ; 
+}
+ .about .section{
+    border: 2px solid gray;
+    background-color: bisque;
+    min-height: 100vh;
+    width: 90%;
+ }
+ .about .section .two{
+  display: flex;
+  
+ }
+ .about .section .two .cont1{
+    margin: 0px 5%;
+   }
+ .about .section .two .cont2{
+    margin: 0px 20%;
+   }
+   .container{
+    margin: 5% 0px;
+     background-color: black;
+     width: 100%;
+     color: white;
+
+   }
+   .media{
+  position: relative;
+    left: 1000px;
+    bottom: 90px;
+   
+   }
+   .fa-brands{
+    font-size: x-large;
+   
+   }
+   .container2{
+    display: flex;
+    background-color: bisque;
+   }
+   .container2 img{
+    width: 33%;
+    height: 0%;
+    padding: 10px 20px;
+   }
